@@ -9,7 +9,11 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
+<<<<<<< HEAD
             "program": "${workspaceFolder}/bin/Debug/net6.0/KalumManagement.dll",
+=======
+            "program": "${workspaceFolder}/bin/Debug/net6.0/KalumAuthManagement.dll",
+>>>>>>> 8c782d89149ff6cca6be42a8f6889018b2794a80
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,

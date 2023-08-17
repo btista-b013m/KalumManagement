@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using KalumManagement;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,3 +36,21 @@ app.MapControllers();
 
 app.Run();
 */
+=======
+using kalumAutManagement;
+
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+           CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+             .ConfigureWebHostDefaults(webBuilder =>
+             {
+                 webBuilder.UseStartup<Startup>();
+             });
+    }
+>>>>>>> 8c782d89149ff6cca6be42a8f6889018b2794a80

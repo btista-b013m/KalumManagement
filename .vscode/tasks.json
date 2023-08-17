@@ -7,7 +7,11 @@
             "type": "process",
             "args": [
                 "build",
+<<<<<<< HEAD
                 "${workspaceFolder}/KalumManagement.csproj",
+=======
+                "${workspaceFolder}/KalumAuthManagement.csproj",
+>>>>>>> 8c782d89149ff6cca6be42a8f6889018b2794a80
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +23,11 @@
             "type": "process",
             "args": [
                 "publish",
+<<<<<<< HEAD
                 "${workspaceFolder}/KalumManagement.csproj",
+=======
+                "${workspaceFolder}/KalumAuthManagement.csproj",
+>>>>>>> 8c782d89149ff6cca6be42a8f6889018b2794a80
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +41,11 @@
                 "watch",
                 "run",
                 "--project",
+<<<<<<< HEAD
                 "${workspaceFolder}/KalumManagement.csproj"
+=======
+                "${workspaceFolder}/KalumAuthManagement.csproj"
+>>>>>>> 8c782d89149ff6cca6be42a8f6889018b2794a80
             ],
             "problemMatcher": "$msCompile"
         }

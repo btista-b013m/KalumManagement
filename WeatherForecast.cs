@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 namespace KalumManagement;
+=======
+namespace KalumAuthManagement;
+>>>>>>> 8c782d89149ff6cca6be42a8f6889018b2794a80
 
 public class WeatherForecast
 {
